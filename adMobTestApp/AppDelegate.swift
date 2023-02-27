@@ -7,6 +7,7 @@
 
 import UIKit
 import GoogleMobileAds
+import YieldloveAdIntegration
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {

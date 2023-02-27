@@ -17,7 +17,7 @@
             startingLineNumber = "53"
             endingLineNumber = "53"
             landmarkName = "bannerViewDidReceiveAd(_:)"
-            landmarkType = "9">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -33,7 +33,7 @@
             startingLineNumber = "61"
             endingLineNumber = "61"
             landmarkName = "bannerView(_:didFailToReceiveAdWithError:)"
-            landmarkType = "9">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -49,7 +49,7 @@
             startingLineNumber = "65"
             endingLineNumber = "65"
             landmarkName = "bannerViewDidRecordImpression(_:)"
-            landmarkType = "9">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -65,7 +65,7 @@
             startingLineNumber = "69"
             endingLineNumber = "69"
             landmarkName = "bannerViewWillPresentScreen(_:)"
-            landmarkType = "9">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -81,7 +81,7 @@
             startingLineNumber = "73"
             endingLineNumber = "73"
             landmarkName = "bannerViewWillDismissScreen(_:)"
-            landmarkType = "9">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -97,7 +97,7 @@
             startingLineNumber = "77"
             endingLineNumber = "77"
             landmarkName = "bannerViewDidDismissScreen(_:)"
-            landmarkType = "9">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

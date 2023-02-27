@@ -1,6 +1,9 @@
 PODS:
-  - Google-Mobile-Ads-SDK (10.1.0):
-    - GoogleAppMeasurement (< 11.0, >= 7.0)
+  - CriteoPublisherSdk (4.4.0):
+    - CriteoPublisherSdk/Sdk (= 4.4.0)
+  - CriteoPublisherSdk/Sdk (4.4.0)
+  - Google-Mobile-Ads-SDK (9.7.0):
+    - GoogleAppMeasurement (< 10.0, >= 7.0)
     - GoogleUserMessagingPlatform (>= 1.1)
   - GoogleAppMeasurement (8.13.0):
     - GoogleAppMeasurement/AdIdSupport (= 8.13.0)
@@ -45,28 +48,51 @@ PODS:
     - nanopb/encode (= 2.30908.0)
   - nanopb/decode (2.30908.0)
   - nanopb/encode (2.30908.0)
+  - PrebidMobile (2.0.8):
+    - PrebidMobile/core (= 2.0.8)
+  - PrebidMobile/core (2.0.8)
+  - PromiseKit/CorePromise (6.15.3)
   - PromisesObjC (2.0.0)
+  - YieldloveAdIntegration (9.3.0):
+    - CriteoPublisherSdk (~> 4.4.0)
+    - Google-Mobile-Ads-SDK (~> 9.7.0)
+    - PrebidMobile (~> 2.0.1)
+    - PromiseKit/CorePromise (~> 6.15.3)
+    - YieldloveExternalConfiguration (~> 0.18.0)
+  - YieldloveExternalConfiguration (0.18.0):
+    - PromiseKit/CorePromise (~> 6.15.3)
 
 DEPENDENCIES:
-  - Google-Mobile-Ads-SDK
+  - Google-Mobile-Ads-SDK (= 9.7.0)
+  - YieldloveAdIntegration (= 9.3.0)
 
 SPEC REPOS:
   trunk:
+    - CriteoPublisherSdk
     - Google-Mobile-Ads-SDK
     - GoogleAppMeasurement
     - GoogleUserMessagingPlatform
     - GoogleUtilities
     - nanopb
+    - PrebidMobile
+    - PromiseKit
     - PromisesObjC
+    - YieldloveAdIntegration
+    - YieldloveExternalConfiguration
 
 SPEC CHECKSUMS:
-  Google-Mobile-Ads-SDK: 894be2e3e3e8281004bda14381f9af7ad73eeffd
+  CriteoPublisherSdk: f789cccc222f1a9f6f5feec6af6f12da5d4c225a
+  Google-Mobile-Ads-SDK: 2685d6b3374b26de8a71f535614396e57cf80b13
   GoogleAppMeasurement: 135c2fbcf5038e0f37dbce04fa641a702fc275d1
   GoogleUserMessagingPlatform: 5f8b30daf181805317b6b985bb51c1ff3beca054
   GoogleUtilities: e0913149f6b0625b553d70dae12b49fc62914fd1
   nanopb: a0ba3315591a9ae0a16a309ee504766e90db0c96
+  PrebidMobile: 1f3f3c4076446ca78679fa511010df47cdee18d0
+  PromiseKit: 3b2b6995e51a954c46dbc550ce3da44fbfb563c5
   PromisesObjC: 68159ce6952d93e17b2dfe273b8c40907db5ba58
+  YieldloveAdIntegration: edff7db8b0992061528256358a409fcef0e05397
+  YieldloveExternalConfiguration: 9acb9f0bdf7108f02ec9a6adf46873e01ce46526
 
-PODFILE CHECKSUM: 0fe21f3c3919fd2d77aed7fe211469673317afbe
+PODFILE CHECKSUM: f0777fafd134ed7813be15940a9dc18adbd66d14
 
 COCOAPODS: 1.11.3

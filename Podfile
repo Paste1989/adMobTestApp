@@ -6,7 +6,8 @@ target 'adMobTestApp' do
   use_frameworks!
 
   # Pods for adMobTestApp
-pod 'Google-Mobile-Ads-SDK'
+pod 'Google-Mobile-Ads-SDK', '9.7.0'
+pod 'YieldloveAdIntegration', '9.3.0'
 
   target 'adMobTestAppTests' do
     inherit! :search_paths
